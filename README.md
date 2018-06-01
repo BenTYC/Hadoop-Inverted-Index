@@ -30,7 +30,6 @@ Above shows how our MapReduce indexing work. The mapper deal with the informatio
 
 Stem the keywords
 ---
-![stemming](https://github.com/BenTYC/Hadoop-Inverted-Index/blob/master/stem.png)
-<img src="https://github.com/BenTYC/Hadoop-Inverted-Index/blob/master/stem.png" width="48">
+<img src="https://github.com/BenTYC/Hadoop-Inverted-Index/blob/master/stem.png" width="500">
 
 As figure above showed, these four types of word are derived from the same origin, so we use the stemming algorithm and store only one word in index. We use porter stemming algorithm from this website ( https://tartarus.org/martin/PorterStemmer/ ). It provides API for many popular languages.
