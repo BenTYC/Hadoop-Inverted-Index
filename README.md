@@ -26,7 +26,7 @@ Details of how hadoop was used (key, values definitions and data flow)
 ![MapReduce](https://github.com/BenTYC/Hadoop-Inverted-Index/blob/master/MR.png "MapReduce")
 
 Above shows how our MapReduce indexing work. The mapper deal with the information of each word, like document id and position, then the combiner combine this information from the same post and calculate the term frequency of each word. Finally, the reducer sum up this information of the same word. The output is the inverted index and tf-idf score for each word and its format is Json.The result is already ordered by their tf-idf score.
-<img src="https://github.com/BenTYC/Hadoop-Inverted-Index/blob/master/index.png" width="500">
+<div align=center><img src="https://github.com/BenTYC/Hadoop-Inverted-Index/blob/master/index.png" width="600">
 
 Stem the keywords
 ---
